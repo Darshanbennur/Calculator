@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+    <link rel="shortcut icon" type="image/png" href="calculator3.png">
+</head>
+<body>
+
+    <div class="splash">
+        <h1 class="fadein">Welcome to My Calculator Site</h1>
+    </div>
+
+    <h2 id="headd">Calculator</h2>
+    <main>
+        <div class="in">
+            Enter The First Number : <input type="text" name="first" id="first"><br><br>
+            Enter The Second Number : <input type="text" name="second" id="second"><br><br>
+        </div>
+       <div class="ans">
+        <p id="answer"></p>
+       </div>
+       
+       <div class="buttons">
+           <input type="button" id="btn" onclick="sum()" value="Add">
+           <input type="button" id="btn" onclick="sub()" value="Subtract">
+           <input type="button" id="btn" onclick="mux()" value="Mulitply">
+           <input type="button" id="btn" onclick="div()" value="Divide">
+       </div>
+    </main>
+    <script src="calculator.js"></script>
+</body>
+</html>
